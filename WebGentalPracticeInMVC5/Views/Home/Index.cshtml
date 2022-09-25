@@ -1,0 +1,35 @@
+﻿@{
+    string c, b = "hello to the world";
+    c = "hello to world from c ";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @*Html Inline Helper*@
+        <label>Html Inline Helper</label>
+        @helper Test(string a)
+        {
+            <h1>@a</h1>
+        }
+        @Test("Muzamil will be Programer") <br />
+
+
+
+
+        @*standerd html helper*@
+        <label>standerd html helper</label> <br />
+        @Html.TextArea(b)
+
+        <label>standerd html helper</label> <br />
+        
+        @Html.TextBox(c);
+
+    </div>
+</body>
+</html>
