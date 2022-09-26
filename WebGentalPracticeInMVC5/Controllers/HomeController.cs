@@ -80,7 +80,7 @@ namespace WebGentalPracticeInMVC5.Controllers
             studentlist.Add(obj);
             studentlist.Add(obj1);
             studentlist.Add(obj2);
-            hgkjhgjhgkjg
+            
 
             return studentlist;
         }
